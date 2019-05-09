@@ -4,12 +4,10 @@ import styles from './styles.module.scss';
 
 const Header = (props) => {
 
-    console.log(styles);
-
     return (
-        <header>
+        <header data-testid="Header-root">
             <div className={styles.wrap}>
-                <JestLogo className={styles.logo} foo="test" />
+                <JestLogo data-testid="JestLogo" className={styles.logo} />
             </div>
         </header>
     );

@@ -2,14 +2,13 @@ import React from 'react';
 import classnames from 'classnames';
 import styles from './styles.module.scss';
 
-export default (props) => {
+const JestLogo = (props) => {
     const rootClassNames = classnames(
         styles.root,
         {
             [props.className]: props.className
         }
     );
-    console.log(props);
 
     return (
         <svg 
@@ -25,3 +24,5 @@ export default (props) => {
     );
     
 };
+
+export default JestLogo;
