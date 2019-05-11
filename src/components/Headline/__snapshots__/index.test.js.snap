@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Headline component Have props Matches the snapshot 1`] = `
+<div
+  data-testid="Headline-root"
+>
+  <h1
+    data-testid="header"
+  >
+    Test Header
+  </h1>
+  <p
+    data-testid="desc"
+  >
+    Test description
+  </p>
+</div>
+`;
